@@ -1,0 +1,1568 @@
+[
+    {
+        "id": "0704.0038",
+        "submitter": "Maxim A. Yurkin",
+        "authors": "Maxim A. Yurkin, Alfons G. Hoekstra",
+        "title": "The discrete dipole approximation: an overview and recent developments",
+        "comments": "36 pages, 1 figure; added several corrections according to the\n  published erratum except for Eq.(5) (it was correct in the original paper)",
+        "journal-ref": "J.Quant.Spectrosc.Radiat.Transf. 106, 558-589 (2007); Erratum:\n  J.Quant.Spectrosc.Radiat.Transf. 171, 82-83 (2016)",
+        "doi": "10.1016/j.jqsrt.2007.01.034 10.1016/j.jqsrt.2015.11.025",
+        "report-no": null,
+        "categories": "physics.optics physics.comp-ph",
+        "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "abstract": "  We present a review of the discrete dipole approximation (DDA), which is a\ngeneral method to simulate light scattering by arbitrarily shaped particles. We\nput the method in historical context and discuss recent developments, taking\nthe viewpoint of a general framework based on the integral equations for the\nelectric field. We review both the theory of the DDA and its numerical aspects,\nthe latter being of critical importance for any practical application of the\nmethod. Finally, the position of the DDA among other methods of light\nscattering simulation is shown and possible future developments are discussed.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Sat, 31 Mar 2007 16:25:01 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Tue, 29 Mar 2022 17:39:15 GMT"
+            }
+        ],
+        "update_date": "2022-03-30",
+        "authors_parsed": [
+            [
+                "Yurkin",
+                "Maxim A.",
+                ""
+            ],
+            [
+                "Hoekstra",
+                "Alfons G.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0057",
+        "submitter": "Philipp Werner",
+        "authors": "Philipp Werner and Andrew J. Millis",
+        "title": "High-spin to low-spin and orbital polarization transitions in\n  multiorbital Mott systems",
+        "comments": "Published version",
+        "journal-ref": "Phys. Rev. Lett. 99, 126405 (2007)",
+        "doi": "10.1103/PhysRevLett.99.126405",
+        "report-no": null,
+        "categories": "cond-mat.str-el",
+        "license": null,
+        "abstract": "  We study the interplay of crystal field splitting and Hund coupling in a\ntwo-orbital model which captures the essential physics of systems with two\nelectrons or holes in the e_g shell. We use single site dynamical mean field\ntheory with a recently developed impurity solver which is able to access strong\ncouplings and low temperatures. The fillings of the orbitals and the location\nof phase boundaries are computed as a function of Coulomb repulsion, exchange\ncoupling and crystal field splitting. We find that the Hund coupling can drive\nthe system into a novel Mott insulating phase with vanishing orbital\nsusceptibility. Away from half-filling, the crystal field splitting can induce\nan orbital selective Mott state.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Sun, 1 Apr 2007 19:58:35 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Wed, 19 Sep 2007 18:33:51 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Werner",
+                "Philipp",
+                ""
+            ],
+            [
+                "Millis",
+                "Andrew J.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0060",
+        "submitter": "Carlos Bertulani",
+        "authors": "C.A. Bertulani, G. Cardella, M. De Napoli, G. Raciti, and E. Rapisarda",
+        "title": "Coulomb excitation of unstable nuclei at intermediate energies",
+        "comments": "12 pages, 2 figures, accepted for publication in Phys. Lett. B",
+        "journal-ref": "Phys.Lett.B650:233-238,2007",
+        "doi": "10.1016/j.physletb.2007.05.029",
+        "report-no": null,
+        "categories": "nucl-th",
+        "license": null,
+        "abstract": "  We investigate the Coulomb excitation of low-lying states of unstable nuclei\nin intermediate energy collisions ($E_{lab}\\sim10-500$ MeV/nucleon). It is\nshown that the cross sections for the $E1$ and $E2$ transitions are larger at\nlower energies, much less than 10 MeV/nucleon. Retardation effects and Coulomb\ndistortion are found to be both relevant for energies as low as 10 MeV/nucleon\nand as high as 500 MeV/nucleon. Implications for studies at radioactive beam\nfacilities are discussed.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Sat, 31 Mar 2007 22:24:53 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Mon, 21 May 2007 16:23:27 GMT"
+            }
+        ],
+        "update_date": "2008-11-26",
+        "authors_parsed": [
+            [
+                "Bertulani",
+                "C. A.",
+                ""
+            ],
+            [
+                "Cardella",
+                "G.",
+                ""
+            ],
+            [
+                "De Napoli",
+                "M.",
+                ""
+            ],
+            [
+                "Raciti",
+                "G.",
+                ""
+            ],
+            [
+                "Rapisarda",
+                "E.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0070",
+        "submitter": "Yanzhang He",
+        "authors": "He Yanzhang and Bao Chengguang",
+        "title": "Coincidence of the oscillations in the dipole transition and in the\n  persistent current of narrow quantum rings with two electrons",
+        "comments": "5 pages, 4 figures, submitted",
+        "journal-ref": "J. Phys.: Condens. Matter 20 (2008) 055214",
+        "doi": null,
+        "report-no": null,
+        "categories": "cond-mat.mes-hall",
+        "license": null,
+        "abstract": "  The fractional Aharonov-Bohm oscillation (FABO) of narrow quantum rings with\ntwo electrons has been studied and has been explained in an analytical way, the\nevolution of the period and amplitudes against the magnetic field can be\nexactly described. Furthermore, the dipole transition of the ground state was\nfound to have essentially two frequencies, their difference appears as an\noscillation matching the oscillation of the persistent current exactly. A\nnumber of equalities relating the observables and dynamical parameters have\nbeen found.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Sun, 1 Apr 2007 06:49:32 GMT"
+            }
+        ],
+        "update_date": "2008-01-19",
+        "authors_parsed": [
+            [
+                "Yanzhang",
+                "He",
+                ""
+            ],
+            [
+                "Chengguang",
+                "Bao",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0074",
+        "submitter": "Jawad Y. Abuhlail",
+        "authors": "J. Y. Abuhlail, S. K. Nauman",
+        "title": "Injective Morita contexts (revisited)",
+        "comments": null,
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "math.RA",
+        "license": null,
+        "abstract": "  This paper is an exposition of the so-called injective Morita contexts (in\nwhich the connecting bimodule morphisms are injective) and Morita\n$\\alpha$contexts (in which the connecting bimodules enjoy some local\nprojectivity in the sense of Zimmermann-Huisgen). Motivated by situations in\nwhich only one trace ideal is in action, or the compatibility between the\nbimodule morphisms is not needed, we introduce the notions of Morita\nsemi-contexts and Morita data, and investigate them. Injective Morita data will\nbe used (with the help of static and adstatic modules) to establish\nequivalences between some intersecting subcategories related to subcategories\nof modules that are localized or colocalized by trace ideals of a Morita datum.\nWe end up with applications of Morita $\\alpha$-contexts to $\\ast$-modules and\ninjective right wide Morita contexts.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Sun, 1 Apr 2007 09:34:47 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Tue, 21 Aug 2007 21:54:33 GMT"
+            }
+        ],
+        "update_date": "2007-08-22",
+        "authors_parsed": [
+            [
+                "Abuhlail",
+                "J. Y.",
+                ""
+            ],
+            [
+                "Nauman",
+                "S. K.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0117",
+        "submitter": "Mang Feng",
+        "authors": "T. Liu, K.L. Wang, and M. Feng",
+        "title": "Lower ground state due to counter-rotating wave interaction in trapped\n  ion system",
+        "comments": "Complete solution of a trapped ion in both strong and weak excitation\n  regimes and beyond Lamb-Dicke limit. Also applicable to JC model relevant\n  problems",
+        "journal-ref": null,
+        "doi": "10.1088/0953-4075/40/11/002",
+        "report-no": null,
+        "categories": "quant-ph",
+        "license": null,
+        "abstract": "  We consider a single ion confined in a trap under radiation of two traveling\nwaves of lasers. In the strong-excitation regime and without the restriction of\nLamb-Dicke limit, the Hamiltonian of the system is similar to a driving\nJaynes-Cummings model without rotating wave approximation (RWA). The approach\nwe developed enables us to present a complete eigensolutions, which makes it\navailable to compare with the solutions under the RWA. We find that, the ground\nstate in our non-RWA solution is energically lower than the counterpart under\nthe RWA. If we have the ion in the ground state, it is equivalent to a spin\ndependent force on the trapped ion. Discussion is made for the difference\nbetween the solutions with and without the RWA, and for the relevant\nexperimental test, as well as for the possible application in quantum\ninformation processing.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 03:04:49 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Liu",
+                "T.",
+                ""
+            ],
+            [
+                "Wang",
+                "K. L.",
+                ""
+            ],
+            [
+                "Feng",
+                "M.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0127",
+        "submitter": "Kai Liu",
+        "authors": "Randy K. Dumas, Chang-Peng Li, Igor V. Roshchin, Ivan K. Schuller and\n  Kai Liu",
+        "title": "Magnetic Fingerprints of sub-100 nm Fe Nanodots",
+        "comments": "19 pages, 4 figures, to appear in PRB",
+        "journal-ref": "Phys. Rev. B 75, 134405 (2007).",
+        "doi": "10.1103/PhysRevB.75.134405",
+        "report-no": null,
+        "categories": "cond-mat.mtrl-sci",
+        "license": null,
+        "abstract": "  Sub-100 nm nanomagnets not only are technologically important, but also\nexhibit complex magnetization reversal behaviors as their dimensions are\ncomparable to typical magnetic domain wall widths. Here we capture magnetic\n\"fingerprints\" of 1 billion Fe nanodots as they undergo a single domain to\nvortex state transition, using a first-order reversal curve (FORC) method. As\nthe nanodot size increases from 52 nm to 67 nm, the FORC diagrams reveal\nstriking differences, despite only subtle changes in their major hysteresis\nloops. The 52 nm nanodots exhibit single domain behavior and the coercivity\ndistribution extracted from the FORC distribution agrees well with a\ncalculation based on the measured nanodot size distribution. The 58 and 67 nm\nnanodots exhibit vortex states, where the nucleation and annihilation of the\nvortices are manifested as butterfly-like features in the FORC distribution and\nconfirmed by micromagnetic simulations. Furthermore, the FORC method gives\nquantitative measures of the magnetic phase fractions, and vortex nucleation\nand annihilation fields.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 06:14:30 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Dumas",
+                "Randy K.",
+                ""
+            ],
+            [
+                "Li",
+                "Chang-Peng",
+                ""
+            ],
+            [
+                "Roshchin",
+                "Igor V.",
+                ""
+            ],
+            [
+                "Schuller",
+                "Ivan K.",
+                ""
+            ],
+            [
+                "Liu",
+                "Kai",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0134",
+        "submitter": "A. K. Chaudhuri",
+        "authors": "A. K. Chaudhuri",
+        "title": "Causal dissipative hydrodynamics for QGP fluid in 2+1 dimensions",
+        "comments": "Extensively revised version. In the revised version, we have\n  discussed the effect of viscosity on (quark) transverse momentum distribution\n  and on elliptic flow. It was shown that elliptic flow saturates due to\n  non-equilirium correction to the equilibrium distribution function and can\n  not be mimicked by ideal dynamics. 15 pages, 16 figures",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "nucl-th",
+        "license": null,
+        "abstract": "  In 2nd order causal dissipative theory, space-time evolution of QGP fluid is\nstudied in 2+1 dimensions. Relaxation equations for shear stress tensors are\nsolved simultaneously with the energy-momentum conservation equations.\nComparison of evolution of ideal and viscous QGP fluid, initialized under the\nsame conditions, e.g. same equilibration time, energy density and velocity\nprofile, indicate that in a viscous dynamics, energy density or temperature of\nthe fluid evolve slowly, than in an ideal fluid. Cooling gets slower as\nviscosity increases. Transverse expansion also increases in a viscous dynamics.\nFor the first time we have also studied elliptic flow of 'quarks' in causal\nviscous dynamics. It is shown that elliptic flow of quarks saturates due to\nnon-equilibrium correction to equilibrium distribution function, and can not be\nmimicked by an ideal hydrodynamics.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 06:56:01 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Wed, 1 Aug 2007 13:19:18 GMT"
+            }
+        ],
+        "update_date": "2007-08-01",
+        "authors_parsed": [
+            [
+                "Chaudhuri",
+                "A. K.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0160",
+        "submitter": "Grazyna Stasinska",
+        "authors": "G. Stasinska, G. Tenorio-Tagle, M. Rodriguez, W. J. Henney",
+        "title": "Oxygen-rich droplets and the enrichment of the ISM",
+        "comments": "4 pages, 5 colour figures, to be published in the proceedings of the\n  conference \"The Metal-Rich Universe\", Cambridge University Press",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "astro-ph",
+        "license": null,
+        "abstract": "  We argue that the discrepancies observed in HII regions between abundances\nderived from optical recombination lines (ORLs) and collisionally excited lines\n(CELs) might well be the signature of a scenario of the enrichment of the\ninterstellar medium (ISM) proposed by Tenorio-Tagle (1996). In this scenario,\nthe fresh oxygen released during massive supernova explosions is confined\nwithin the hot superbubbles as long as supernovae continue to explode. Only\nafter the last massive supernova explosion, the metal-rich gas starts cooling\ndown and falls on the galaxy within metal-rich droplets. Full mixing of these\nmetal-rich droplets and the ISM occurs during photoionization by the next\ngenerations of massive stars. During this process, the metal-rich droplets give\nrise to strong recombination lines of the metals, leading to the observed\nORL-CEL discrepancy. (The full version of this work is submitted to Astronomy\nand Astrophysics.)\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 10:25:01 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Stasinska",
+                "G.",
+                ""
+            ],
+            [
+                "Tenorio-Tagle",
+                "G.",
+                ""
+            ],
+            [
+                "Rodriguez",
+                "M.",
+                ""
+            ],
+            [
+                "Henney",
+                "W. J.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0182",
+        "submitter": "Wolfgang Kuch",
+        "authors": "W. Kuch, F. Offi, L. I. Chelaru, J. Wang, K. Fukumoto, M. Kotsugi, J.\n  Kirschner, J. Kunes",
+        "title": "Huge magneto-crystalline anisotropy of x-ray linear dichroism observed\n  on Co/FeMn bilayers",
+        "comments": null,
+        "journal-ref": "Phys. Rev. B 75, 224406 (2007)",
+        "doi": "10.1103/PhysRevB.75.224406",
+        "report-no": null,
+        "categories": "cond-mat.mtrl-sci",
+        "license": null,
+        "abstract": "  We present an x-ray spectromicroscopic investigation of single-crystalline\nmagnetic FeMn/Co bilayers on Cu(001), using X-ray magnetic circular (XMCD) and\nlinear (XMLD) dichroism at the Co and Fe L3 absorption edges in combination\nwith photoelectron emission microscopy (PEEM). Using the magnetic coupling\nbetween the ferromagnetic Co layer and the antiferromagnetic FeMn layer we are\nable to produce magnetic domains with two different crystallographic\norientations of the magnetic easy axis within the same sample at the same time.\nWe find a huge difference in the XMLD contrast between the two types of\nmagnetic domains, which we discuss in terms of intrinsic magneto-crystalline\nanisotropy of XMLD of the Co layer. We also demonstrate that due to the high\nsensitivity of the method, the small number of induced ferromagnetic Fe moments\nat the FeMn-Co interface is sufficient to obtain magnetic contrast from XMLD in\na metallic system.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 12:49:07 GMT"
+            }
+        ],
+        "update_date": "2007-06-13",
+        "authors_parsed": [
+            [
+                "Kuch",
+                "W.",
+                ""
+            ],
+            [
+                "Offi",
+                "F.",
+                ""
+            ],
+            [
+                "Chelaru",
+                "L. I.",
+                ""
+            ],
+            [
+                "Wang",
+                "J.",
+                ""
+            ],
+            [
+                "Fukumoto",
+                "K.",
+                ""
+            ],
+            [
+                "Kotsugi",
+                "M.",
+                ""
+            ],
+            [
+                "Kirschner",
+                "J.",
+                ""
+            ],
+            [
+                "Kunes",
+                "J.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0185",
+        "submitter": "Peter Brommer",
+        "authors": "Peter Brommer and Franz G\\\"ahler (Institut f\\\"ur Theoretische und\n  Angewandte Physik, Universit\\\"at Stuttgart)",
+        "title": "Potfit: effective potentials from ab-initio data",
+        "comments": "11 pages",
+        "journal-ref": "Modelling and Simulation in Materials Science and Engineering 15\n  (2007), 295",
+        "doi": "10.1088/0965-0393/15/3/008",
+        "report-no": null,
+        "categories": "cond-mat.mtrl-sci",
+        "license": null,
+        "abstract": "  We present a program called potfit which generates an effective atomic\ninteraction potential by matching it to a set of reference data computed in\nfirst-principles calculations. It thus allows to perform large-scale atomistic\nsimulations of materials with physically justified potentials. We describe the\nfundamental principles behind the program, emphasizing its flexibility in\nadapting to different systems and potential models, while also discussing its\nlimitations. The program has been used successfully in creating effective\npotentials for a number of complex intermetallic alloys, notably quasicrystals.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 13:35:11 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Tue, 3 Apr 2007 08:51:17 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Brommer",
+                "Peter",
+                "",
+                "Institut f\u00fcr Theoretische und\n  Angewandte Physik, Universit\u00e4t Stuttgart"
+            ],
+            [
+                "G\u00e4hler",
+                "Franz",
+                "",
+                "Institut f\u00fcr Theoretische und\n  Angewandte Physik, Universit\u00e4t Stuttgart"
+            ]
+        ]
+    },
+    {
+        "id": "0704.0206",
+        "submitter": "Stefano Lepri",
+        "authors": "Stefano Lepri, Giovanni Giacomelli",
+        "title": "Resonant activation in bistable semiconductor lasers",
+        "comments": "Submitted to Phys. Rev. A",
+        "journal-ref": null,
+        "doi": "10.1103/PhysRevA.76.023815",
+        "report-no": null,
+        "categories": "physics.optics",
+        "license": null,
+        "abstract": "  We theoretically investigate the possibility of observing resonant activation\nin the hopping dynamics of two-mode semiconductor lasers. We present a series\nof simulations of a rate-equations model under random and periodic modulation\nof the bias current. In both cases, for an optimal choice of the modulation\ntime-scale, the hopping times between the stable lasing modes attain a minimum.\nThe simulation data are understood by means of an effective one-dimensional\nLangevin equation with multiplicative fluctuations. Our conclusions apply to\nboth Edge Emitting and Vertical Cavity Lasers, thus opening the way to several\nexperimental tests in such optical systems.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 14:28:51 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Lepri",
+                "Stefano",
+                ""
+            ],
+            [
+                "Giacomelli",
+                "Giovanni",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0210",
+        "submitter": "Andrew Dancer",
+        "authors": "Andrew Dancer, Mckenzie Wang",
+        "title": "Classification of superpotentials",
+        "comments": null,
+        "journal-ref": null,
+        "doi": "10.1007/s00220-008-0641-z",
+        "report-no": null,
+        "categories": "math.DG",
+        "license": null,
+        "abstract": "  We extend our previous classification of superpotentials of ``scalar\ncurvature type\" for the cohomogeneity one Ricci-flat equations. We now consider\nthe case not covered in our previous paper, i.e., when some weight vector of\nthe superpotential lies outside (a scaled translate of) the convex hull of the\nweight vectors associated with the scalar curvature function of the principal\norbit. In this situation we show that either the isotropy representation has at\nmost 3 irreducible summands or the first order subsystem associated to the\nsuperpotential is of the same form as the Calabi-Yau condition for submersion\ntype metrics on complex line bundles over a Fano K\\\"ahler-Einstein product.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 15:10:44 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Dancer",
+                "Andrew",
+                ""
+            ],
+            [
+                "Wang",
+                "Mckenzie",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0216",
+        "submitter": "Alexander Mattausch",
+        "authors": "Alexander Mattausch and Oleg Pankratov",
+        "title": "Ab initio Study of Graphene on SiC",
+        "comments": "4 pages, 3 figures, 1 table; Submitted to Physical Review Letters on\n  01/08/07",
+        "journal-ref": null,
+        "doi": "10.1103/PhysRevLett.99.076802",
+        "report-no": null,
+        "categories": "cond-mat.mtrl-sci",
+        "license": null,
+        "abstract": "  Employing density-functional calculations we study single and double graphene\nlayers on Si- and C-terminated 1x1-6H-SiC surfaces. We show that, in contrast\nto earlier assumptions, the first carbon layer is covalently bonded to the\nsubstrate, and cannot be responsible for the graphene-type electronic spectrum\nobserved experimentally. The characteristic spectrum of free-standing graphene\nappears with the second carbon layer, which exhibits a weak van der Waals\nbonding to the underlying structure. For Si-terminated substrate, the interface\nis metallic, whereas on C-face it is semiconducting or semimetallic for single\nor double graphene coverage, respectively.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 15:28:52 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Mon, 16 Apr 2007 14:57:08 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Mattausch",
+                "Alexander",
+                ""
+            ],
+            [
+                "Pankratov",
+                "Oleg",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0225",
+        "submitter": "Alexander Kashlinsky",
+        "authors": "A. Kashlinsky and D. Band",
+        "title": "Exploring First Stars Era with GLAST",
+        "comments": "to appear in Proceedings of 1st International GLAST Symposium",
+        "journal-ref": "AIP Conf.Proc.921:243-245,2007",
+        "doi": "10.1063/1.2757312",
+        "report-no": null,
+        "categories": "astro-ph",
+        "license": null,
+        "abstract": "  Cosmic infrared background (CIB) includes emissions from objects inaccessible\nto current telescopic studies, such as the putative Population III, the first\nstars. Recently, strong direct evidence for significant CIB levels produced by\nthe first stars came from CIB fluctuations discovered in deep Spitzer images.\nSuch CIB levels should have left a unique absorption feature in the spectra of\nhigh-z GRBs and blazars as suggested in [4]. This is observable with GLAST\nsources at z>2 and measuring this absorption will give important information on\nenergetics and constituents of the first stars era.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 16:13:32 GMT"
+            }
+        ],
+        "update_date": "2009-06-23",
+        "authors_parsed": [
+            [
+                "Kashlinsky",
+                "A.",
+                ""
+            ],
+            [
+                "Band",
+                "D.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0234",
+        "submitter": "Gabriele Ghisellini",
+        "authors": "G. Ghirlanda (1), L. Nava (1,2), G. Ghisellini (1), C. Firmani (1,3)\n  ((1) Osserv. Astr. di Brera, (2) Univ. degli Studi dell'Insubria, (3)\n  U.N.A.M.)",
+        "title": "Comments on ``Are Swift Gamma-Ray Bursts consistent with the Ghirlanda\n  relation?\", by Campana et al.(astro--ph/0703676)",
+        "comments": "3 pages",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "astro-ph",
+        "license": null,
+        "abstract": "  In their recent paper, Campana et al. (2007) found that 5 bursts, among those\ndetected by Swift, are outliers with respect to the E_peak-E_gamma\n(\"Ghirlanda\") correlation. We instead argue that they are not.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 16:49:34 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Ghirlanda",
+                "G.",
+                ""
+            ],
+            [
+                "Nava",
+                "L.",
+                ""
+            ],
+            [
+                "Ghisellini",
+                "G.",
+                ""
+            ],
+            [
+                "Firmani",
+                "C.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0246",
+        "submitter": "Natalya A. Zimbovskaya",
+        "authors": "Natalya A. Zimbovskaya",
+        "title": "Fermi-liquid effects in the transresistivity in quantum Hall double\n  layers near $\\nu= 1/2 $",
+        "comments": "5 pages, 2 figures",
+        "journal-ref": "JETP 98,1231 (2004)",
+        "doi": "10.1134/1.1777636",
+        "report-no": null,
+        "categories": "cond-mat.mes-hall",
+        "license": null,
+        "abstract": "  Here, we present theoretical studies of the temperature and magnetic field\ndependences of the Coulomb drag transresistivity between two parallel layers of\ntwo dimensional electron gases in quantum Hall regime near half filling of the\nlowest Landau level. It is shown that Fermi-liquid interactions between the\nrelevant quasiparticles could give a significant effect on the\ntransresistivity, providing its independence of the interlayer spacing for\nspacings taking on values reported in the experiments. Obtained results agree\nwith the experimental evidence.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 17:36:59 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Zimbovskaya",
+                "Natalya A.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0281",
+        "submitter": "Denis Richard",
+        "authors": "Denis Richard",
+        "title": "The Source of Turbulence in Astrophysical Disks: An Ill-posed Problem.",
+        "comments": "UCSC-NASA Ames Research Center Workshop on Stellar and Planets\n  Formation March 29, 2007",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "astro-ph",
+        "license": null,
+        "abstract": "  An critical overview of the current state of research in turbulence in\nastrophysical disks.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Mon, 2 Apr 2007 22:43:43 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Richard",
+                "Denis",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0291",
+        "submitter": "Matthew Jeppesen",
+        "authors": "M. Jeppesen, J. Dugu\\'e, G. R. Dennis, M. T. Johnsson, C. Figl, N. P.\n  Robins and J. D. Close",
+        "title": "Approaching the Heisenberg limit in an atom laser",
+        "comments": "Corrected analysis, added figure",
+        "journal-ref": null,
+        "doi": "10.1103/PhysRevA.77.063618",
+        "report-no": null,
+        "categories": "physics.atom-ph cond-mat.other",
+        "license": null,
+        "abstract": "  We present experimental and theoretical results showing the improved beam\nquality and reduced divergence of an atom laser produced by an optical Raman\ntransition, compared to one produced by an RF transition. We show that Raman\noutcoupling can eliminate the diverging lens effect that the condensate has on\nthe outcoupled atoms. This substantially improves the beam quality of the atom\nlaser, and the improvement may be greater than a factor of ten for experiments\nwith tight trapping potentials. We show that Raman outcoupling can produce atom\nlasers whose quality is only limited by the wavefunction shape of the\ncondensate that produces them, typically a factor of 1.3 above the Heisenberg\nlimit.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 06:35:53 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Tue, 2 Oct 2007 01:38:13 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Jeppesen",
+                "M.",
+                ""
+            ],
+            [
+                "Dugu\u00e9",
+                "J.",
+                ""
+            ],
+            [
+                "Dennis",
+                "G. R.",
+                ""
+            ],
+            [
+                "Johnsson",
+                "M. T.",
+                ""
+            ],
+            [
+                "Figl",
+                "C.",
+                ""
+            ],
+            [
+                "Robins",
+                "N. P.",
+                ""
+            ],
+            [
+                "Close",
+                "J. D.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0311",
+        "submitter": "J. R. Kirtley",
+        "authors": "John R. Kirtley, Zhifeng Deng, Lan Luan, Erhan Yenilmez, Hongjie Dai,\n  and Kathryn A. Moler",
+        "title": "Moment switching in nanotube magnetic force probes",
+        "comments": "10 pages",
+        "journal-ref": null,
+        "doi": "10.1088/0957-4484/18/46/465506",
+        "report-no": null,
+        "categories": "cond-mat.mes-hall cond-mat.mtrl-sci",
+        "license": null,
+        "abstract": "  A recent advance in improving the spatial resolution of magnetic force\nmicroscopy (MFM) uses as sensor tips carbon nanotubes grown at the apex of\nconventional silicon cantilever pyramids and coated with a thin ferromagnetic\nlayer. Magnetic images of high density vertically recorded media using these\ntips exhibit a doubling of the spatial frequency under some conditions. Here we\ndemonstrate that this spatial frequency doubling is due to the switching of the\nmoment direction of the nanotube tip. This results in a signal which is\nproportional to the absolute value of the signal normally observed in MFM. Our\nmodeling indicates that a significant fraction of the tip volume is involved in\nthe observed switching, and that it should be possible to image very high bit\ndensities with nanotube magnetic force sensors.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 04:24:09 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Kirtley",
+                "John R.",
+                ""
+            ],
+            [
+                "Deng",
+                "Zhifeng",
+                ""
+            ],
+            [
+                "Luan",
+                "Lan",
+                ""
+            ],
+            [
+                "Yenilmez",
+                "Erhan",
+                ""
+            ],
+            [
+                "Dai",
+                "Hongjie",
+                ""
+            ],
+            [
+                "Moler",
+                "Kathryn A.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0358",
+        "submitter": "Paride Paradisi",
+        "authors": "Paride Paradisi",
+        "title": "Flavor Physics in SUSY at large tan(beta)",
+        "comments": "Proceedings of the Workshop CKM2006, 12-16 December, Nagoya (Japan).\n  4 pages, 2 figures.",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "hep-ph",
+        "license": null,
+        "abstract": "  We discuss the phenomenological impact of a particularly interesting corner\nof the MSSM: the large tan(beta) regime. The capabilities of leptonic and\nhadronic Flavor Violating processes in shedding light on physics beyond the\nStandard Model are reviewed. Moreover, we show that tests of Lepton\nUniversality in charged current processes can represent an interesting handle\nto obtain relevant information on New Physics scenarios.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 14:06:48 GMT"
+            }
+        ],
+        "update_date": "2007-10-10",
+        "authors_parsed": [
+            [
+                "Paradisi",
+                "Paride",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0405",
+        "submitter": "R. J. Williams",
+        "authors": "W. Kang, R. J. Williams",
+        "title": "An invariance principle for semimartingale reflecting Brownian motions\n  in domains with piecewise smooth boundaries",
+        "comments": "Published at http://dx.doi.org/10.1214/105051606000000899 in the\n  Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute\n  of Mathematical Statistics (http://www.imstat.org)",
+        "journal-ref": "Annals of Applied Probability 2007, Vol. 17, No. 2, 741-779",
+        "doi": "10.1214/105051606000000899",
+        "report-no": "IMS-AAP-AAP414",
+        "categories": "math.PR",
+        "license": null,
+        "abstract": "  Semimartingale reflecting Brownian motions (SRBMs) living in the closures of\ndomains with piecewise smooth boundaries are of interest in applied probability\nbecause of their role as heavy traffic approximations for some stochastic\nnetworks. In this paper, assuming certain conditions on the domains and\ndirections of reflection, a perturbation result, or invariance principle, for\nSRBMs is proved. This provides sufficient conditions for a process that\nsatisfies the definition of an SRBM, except for small random perturbations in\nthe defining conditions, to be close in distribution to an SRBM. A crucial\ningredient in the proof of this result is an oscillation inequality for\nsolutions of a perturbed Skorokhod problem. We use the invariance principle to\nshow weak existence of SRBMs under mild conditions. We also use the invariance\nprinciple, in conjunction with known uniqueness results for SRBMs, to give some\nsufficient conditions for validating approximations involving (i) SRBMs in\nconvex polyhedrons with a constant reflection vector field on each face of the\npolyhedron, and (ii) SRBMs in bounded domains with piecewise smooth boundaries\nand possibly nonconstant reflection vector fields on the boundary surfaces.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 14:30:08 GMT"
+            }
+        ],
+        "update_date": "2009-09-29",
+        "authors_parsed": [
+            [
+                "Kang",
+                "W.",
+                ""
+            ],
+            [
+                "Williams",
+                "R. J.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0410",
+        "submitter": "R. J. Nicholas",
+        "authors": "R.S. Deacon, K-C. Chuang, R. J.Nicholas, K.S. Novoselov, A.K. Geim",
+        "title": "Cyclotron Resonance study of the electron and hole velocity in graphene\n  monolayers",
+        "comments": null,
+        "journal-ref": "Phys. Rev. B 76, 081406(R) (2007)",
+        "doi": "10.1103/PhysRevB.76.081406",
+        "report-no": null,
+        "categories": "cond-mat.mes-hall",
+        "license": null,
+        "abstract": "  We report studies of cyclotron resonance in monolayer graphene. Cyclotron\nresonance is detected using the photoconductive response of the sample for\nseveral different Landau level occupancies. The experiments measure an electron\nvelocity at the K- (Dirac) point of $c_{K}^{*}$ = 1.093 x 10$^{6}$ ms$^{-1}$\nand in addition detect a significant asymmetry between the electron and hole\nbands, leading to a difference in the electron and hole velocities of 5% by\nenergies of 125 meV away from the Dirac point.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 19:55:38 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Wed, 4 Apr 2007 11:49:34 GMT"
+            },
+            {
+                "version": "v3",
+                "created": "Wed, 11 Jul 2007 16:42:33 GMT"
+            }
+        ],
+        "update_date": "2007-10-12",
+        "authors_parsed": [
+            [
+                "Deacon",
+                "R. S.",
+                ""
+            ],
+            [
+                "Chuang",
+                "K-C.",
+                ""
+            ],
+            [
+                "Nicholas",
+                "R. J.",
+                ""
+            ],
+            [
+                "Novoselov",
+                "K. S.",
+                ""
+            ],
+            [
+                "Geim",
+                "A. K.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0430",
+        "submitter": "Alvaro Pelayo",
+        "authors": "J.J. Duistermaat and A. Pelayo",
+        "title": "Reduced phase space and toric variety coordinatizations of Delzant\n  spaces",
+        "comments": "18 pages",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "math.SG math.AG",
+        "license": null,
+        "abstract": "  In this note we describe the natural coordinatizations of a Delzant space\ndefined as a reduced phase space (symplectic geometry view-point) and give\nexplicit formulas for the coordinate transformations. For each fixed point of\nthe torus action on the Delzant polytope, we have a maximal coordinatization of\nan open cell in the Delzant space which contains the fixed point. This cell is\nequal to the domain of definition of one of the natural coordinatizations of\nthe Delzant space as a toric variety (complex algebraic geometry view-point),\nand we give an explicit formula for the toric variety coordinates in terms of\nthe reduced phase space coordinates. We use considerations in the maximal\ncoordinate neighborhoods to give simple proofs of some of the basic facts about\nthe Delzant space, as a reduced phase space, and as a toric variety. These can\nbe viewed as a first application of the coordinatizations, and serve to make\nthe presentation more self-contained.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 16:35:19 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Duistermaat",
+                "J. J.",
+                ""
+            ],
+            [
+                "Pelayo",
+                "A.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0436",
+        "submitter": "Ying-Qiu Gu",
+        "authors": "Ying-Qiu Gu, Ta-tsien Li",
+        "title": "Eigen Equation of the Nonlinear Spinor",
+        "comments": "8 pages, no figures",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "physics.gen-ph",
+        "license": null,
+        "abstract": "  How to effectively solve the eigen solutions of the nonlinear spinor field\nequation coupling with some other interaction fields is important to understand\nthe behavior of the elementary particles. In this paper, we derive a simplified\nform of the eigen equation of the nonlinear spinor, and then propose a scheme\nto solve their numerical solutions. This simplified equation has elegant and\nneat structure, which is more convenient for both theoretical analysis and\nnumerical computation.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 16:59:44 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Wed, 4 Apr 2007 04:30:18 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Gu",
+                "Ying-Qiu",
+                ""
+            ],
+            [
+                "Li",
+                "Ta-tsien",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0444",
+        "submitter": "Jacob Bourjaily",
+        "authors": "Jacob L. Bourjaily",
+        "title": "Multiple Unfoldings of Orbifold Singularities: Engineering Geometric\n  Analogies to Unification",
+        "comments": "4 pages, 2 figures.",
+        "journal-ref": null,
+        "doi": "10.1103/PhysRevD.79.046005",
+        "report-no": null,
+        "categories": "hep-th",
+        "license": null,
+        "abstract": "  Katz and Vafa showed how charged matter can arise geometrically by the\ndeformation of ADE-type orbifold singularities in type IIa, M-theory, and\nF-theory compactifications. In this paper we use those same basic ingredients,\nused there to geometrically engineer specific matter representations, here to\ndeform the compactification manifold itself in a way which naturally\ncompliments many features of unified model building. We realize this idea\nexplicitly by deforming a manifold engineered to give rise to an $SU_5$ grand\nunified model into a one giving rise to the Standard Model. In this framework,\nthe relative local positions of the singularities giving rise to Standard Model\nfields are specified in terms of the values of a small number of complex\nstructure moduli which deform the original manifold, greatly reducing the\narbitrariness of their relative positions.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Tue, 3 Apr 2007 17:21:39 GMT"
+            }
+        ],
+        "update_date": "2013-05-29",
+        "authors_parsed": [
+            [
+                "Bourjaily",
+                "Jacob L.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0504",
+        "submitter": "Chang Ho Hyun",
+        "authors": "Chang Ho Hyun",
+        "title": "Compatibility of Exotic States with Neutron Star Observation",
+        "comments": "4 pages, 1 figure. A contribution to Yukawa International Seminar\n  (YKIS) 2006, \"New Frontiers in QCD\", Kyoto, Japan, Nov. 20 - Dec. 8, 2006",
+        "journal-ref": "Prog.Theor.Phys.Suppl.168:627-630,2007",
+        "doi": "10.1143/PTPS.168.627",
+        "report-no": null,
+        "categories": "nucl-th",
+        "license": null,
+        "abstract": "  We consider the effect of hard core repulsion in the baryon-baryon\ninteraction at short distance to the properties of a neutron star. We obtain\nthat, even with hyperons in the interior of a neutron star, the neutron star\nmass can be as large as $\\sim 2 M_\\odot$.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 07:02:25 GMT"
+            }
+        ],
+        "update_date": "2008-11-26",
+        "authors_parsed": [
+            [
+                "Hyun",
+                "Chang Ho",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0526",
+        "submitter": "Eqab Rabei M.",
+        "authors": "Eqab M. Rabei, Ibrahim M. A. Altarazi, Sami I. Muslih, Dumitru Baleanu",
+        "title": "Fractional WKB Approximation",
+        "comments": "11 pages",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "math-ph hep-th math.MP",
+        "license": null,
+        "abstract": "  Wentzel, Kramers, Brillouin (WKB) approximation for fractional systems is\ninvestigated in this paper using the fractional calculus. In the fractional\ncase the wave function is constructed such that the phase factor is the same as\nthe Hamilton's principle function \"S\". To demonstrate our proposed approach two\nexamples are investigated in details.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 08:58:12 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Rabei",
+                "Eqab M.",
+                ""
+            ],
+            [
+                "Altarazi",
+                "Ibrahim M. A.",
+                ""
+            ],
+            [
+                "Muslih",
+                "Sami I.",
+                ""
+            ],
+            [
+                "Baleanu",
+                "Dumitru",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0571",
+        "submitter": "Gianluca Cavoto",
+        "authors": "Gianluca Cavoto",
+        "title": "$\\Bz\\to\\pip\\pim\\piz$ Time Dependent Dalitz analysis at BaBar",
+        "comments": "Proceedings CKM Workshop 2006 in Nagoya, 5 pages, 3 figures",
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "hep-ex",
+        "license": null,
+        "abstract": "  I present here results of a time-dependent analysis of the Dalitz structure\nof neutral $B$ meson decays to\n  $\\pip\\pim\\piz$ from a dataset of 346 million $B \\bar B$ pairs collected at\nthe $\\Upsilon(4S)$ center of mass energy by the BaBar detector at the SLAC\nPEP-II $e^+e^-$ accelerator. No significant CP violation effects are observed\nand 68% confidence interval is derived on the weak angle $\\alpha$ to be\n[75$^o$,152$^o$]\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 13:28:08 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Cavoto",
+                "Gianluca",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0581",
+        "submitter": "Thomas Michael Keller",
+        "authors": "Thomas Michael Keller",
+        "title": "Counting characters in linear group actions",
+        "comments": null,
+        "journal-ref": null,
+        "doi": null,
+        "report-no": null,
+        "categories": "math.RT math.GR",
+        "license": null,
+        "abstract": "  Let $G$ be a finite group and $V$ be a finite $G$--module. We present upper\nbounds for the cardinalities of certain subsets of $\\Irr(GV)$, such as the set\nof those $\\chi\\in\\Irr(GV)$ such that, for a fixed $v\\in V$, the restriction of\n$\\chi$ to $<v>$ is not a multiple of the regular character of $<v>$. These\nresults might be useful in attacking the non--coprime $k(GV)$--problem.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 14:20:52 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Keller",
+                "Thomas Michael",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0605",
+        "submitter": "Alexei Nefediev",
+        "authors": "C.Hanhart (FZ-Juelich), Yu.S.Kalashnikova, A.E.Kudryavtsev,\n  A.V.Nefediev (ITEP, Moscow)",
+        "title": "Reconciling the X(3872) with the near-threshold enhancement in the\n  D^0\\bar{D}^{*0} final state",
+        "comments": "RevTeX4, 17 pages, some references updated and corrected, version\n  published in Phys. Rev. D",
+        "journal-ref": "Phys.Rev.D76:034007,2007",
+        "doi": "10.1103/PhysRevD.76.034007",
+        "report-no": "FZJ-IKP(TH)-2007-14",
+        "categories": "hep-ph hep-ex",
+        "license": null,
+        "abstract": "  We investigate the enhancement in the D^0\\bar{D}^0\\pi^0 final state with the\nmass M=3875.2\\pm 0.7^{+0.3}_{-1.6}\\pm 0.8 MeV found recently by the Belle\nCollaboration in the B\\to K D^0\\bar{D}^0\\pi^0 decay and test the possibility\nthat this is yet another manifestation of the well-established resonance\nX(3872). We perform a combined Flatte analysis of the data for the\nD^0\\bar{D}^0\\pi^0 mode, and for the \\pi^+\\pi^- J/\\psi mode of the X(3872). Only\nif the X(3872) is a virtual state in the D^0\\bar{D}^{*0} channel, the data on\nthe new enhancement comply with those on the X(3872). In our fits, the mass\ndistribution in the D^0\\bar{D}^{*0} mode exhibits a peak at 2-3 MeV above the\nD^0\\bar{D}^{*0} threshold, with a distinctive non-Breit-Wigner shape.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 16:12:31 GMT"
+            },
+            {
+                "version": "v2",
+                "created": "Mon, 27 Aug 2007 13:21:54 GMT"
+            }
+        ],
+        "update_date": "2008-11-26",
+        "authors_parsed": [
+            [
+                "Hanhart",
+                "C.",
+                "",
+                "FZ-Juelich"
+            ],
+            [
+                "Kalashnikova",
+                "Yu. S.",
+                "",
+                "ITEP, Moscow"
+            ],
+            [
+                "Kudryavtsev",
+                "A. E.",
+                "",
+                "ITEP, Moscow"
+            ],
+            [
+                "Nefediev",
+                "A. V.",
+                "",
+                "ITEP, Moscow"
+            ]
+        ]
+    },
+    {
+        "id": "0704.0618",
+        "submitter": "Concettina Galati",
+        "authors": "Concettina Galati",
+        "title": "Number of moduli of irreducible families of plane curves with nodes and\n  cusps",
+        "comments": "22 pages",
+        "journal-ref": "Collect. Math. 57,3 (2006), 319 - 346",
+        "doi": null,
+        "report-no": null,
+        "categories": "math.AG",
+        "license": null,
+        "abstract": "  Consider the family S of irreducible plane curves of degree n with d nodes\nand k cusps as singularities. Let W be an irreducible component of S. We\nconsider the natural rational map from W to the moduli space of curves of genus\ng=(n-1)(n-2)/2-d-k. We define the \"number of moduli of W\" as the dimension of\nthe image of W with respect to this map. If W has the expected dimension equal\nto 3n+g-1-k, then the number of moduli of W is at most equal to the min(3g-3,\n3g-3+\\rho-k), dove \\rho is the Brill-Neother number of the linear series of\ndegree n and dimension 2 on a smooth curve of genus g. We say that W has the\nexpected number of moduli if the equality holds. In this paper we construct\nexamples of families of irreducible plane curves with nodes and cusps as\nsingularities having expected number of moduli and with non-positive\nBrill-Noether number.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Wed, 4 Apr 2007 17:11:00 GMT"
+            }
+        ],
+        "update_date": "2007-05-23",
+        "authors_parsed": [
+            [
+                "Galati",
+                "Concettina",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0703",
+        "submitter": "Ga\\\"etan L\\'ev\\^eque",
+        "authors": "Gaetan Leveque, Olivier J. F. Martin, John Weiner",
+        "title": "Transient behavior of surface plasmon polaritons scattered at a\n  subwavelength groove",
+        "comments": "12 pages, 10 figures",
+        "journal-ref": null,
+        "doi": "10.1103/PhysRevB.76.155418",
+        "report-no": null,
+        "categories": "physics.optics",
+        "license": null,
+        "abstract": "  We present a numerical study and analytical model of the optical near-field\ndiffracted in the vicinity of subwavelength grooves milled in silver surfaces.\nThe Green's tensor approach permits computation of the phase and amplitude\ndependence of the diffracted wave as a function of the groove geometry. It is\nshown that the field diffracted along the interface by the groove is equivalent\nto replacing the groove by an oscillating dipolar line source. An analytic\nexpression is derived from the Green's function formalism, that reproduces well\nthe asymptotic surface plasmon polariton (SPP) wave as well as the transient\nsurface wave in the near-zone close to the groove. The agreement between this\nmodel and the full simulation is very good, showing that the transient\n\"near-zone\" regime does not depend on the precise shape of the groove. Finally,\nit is shown that a composite diffractive evanescent wave model that includes\nthe asymptotic SPP can describe the wavelength evolution in this transient\nnear-zone. Such a semi-analytical model may be useful for the design and\noptimization of more elaborate photonic circuits whose behavior in large part\nwill be controlled by surface waves.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Thu, 5 Apr 2007 10:24:29 GMT"
+            }
+        ],
+        "update_date": "2009-11-13",
+        "authors_parsed": [
+            [
+                "Leveque",
+                "Gaetan",
+                ""
+            ],
+            [
+                "Martin",
+                "Olivier J. F.",
+                ""
+            ],
+            [
+                "Weiner",
+                "John",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0728",
+        "submitter": "D. B. Gutman",
+        "authors": "D. B. Gutman, Yuval Gefen, and A. D. Mirlin",
+        "title": "Zero bias anomaly out of equilibrium",
+        "comments": "4 pages",
+        "journal-ref": "Phys. Rev. Lett. 100, 086801 (2008)",
+        "doi": "10.1103/PhysRevLett.100.086801",
+        "report-no": null,
+        "categories": "cond-mat.mes-hall cond-mat.str-el",
+        "license": null,
+        "abstract": "  The non-equilibrium zero bias anomaly (ZBA) in the tunneling density of\nstates of a diffusive metallic film is studied. An effective action describing\nvirtual fluctuations out-of-equilibrium is derived. The singular behavior of\nthe equilibrium ZBA is smoothed out by real processes of inelastic scattering.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Thu, 5 Apr 2007 14:06:58 GMT"
+            }
+        ],
+        "update_date": "2009-03-22",
+        "authors_parsed": [
+            [
+                "Gutman",
+                "D. B.",
+                ""
+            ],
+            [
+                "Gefen",
+                "Yuval",
+                ""
+            ],
+            [
+                "Mirlin",
+                "A. D.",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0771",
+        "submitter": "Mikko Mottonen",
+        "authors": "Pekko Kuopanportti, Mikko Mottonen, Ville Bergholm, Olli-Pentti Saira,\n  Jun Zhang, and K. Birgitta Whaley",
+        "title": "Suppression of 1/f noise in one-qubit systems",
+        "comments": "8 pages, 7 figures",
+        "journal-ref": "Phys. Rev. A 77, 032334 (2008)",
+        "doi": "10.1103/PhysRevA.77.032334",
+        "report-no": null,
+        "categories": "quant-ph",
+        "license": null,
+        "abstract": "  We investigate the generation of quantum operations for one-qubit systems\nunder classical noise with 1/f^\\alpha power spectrum, where 2>\\alpha > 0. We\npresent an efficient way to approximate the noise with a discrete multi-state\nMarkovian fluctuator. With this method, the average temporal evolution of the\nqubit density matrix under 1/f^\\alpha noise can be feasibly determined from\nrecently derived deterministic master equations. We obtain qubit operations\nsuch as quantum memory and the NOT}gate to high fidelity by a gradient based\noptimization algorithm. For the NOT gate, the computed fidelities are\nqualitatively similar to those obtained earlier for random telegraph noise. In\nthe case of quantum memory however, we observe a nonmonotonic dependency of the\nfidelity on the operation time, yielding a natural access rate of the memory.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Thu, 5 Apr 2007 18:06:45 GMT"
+            }
+        ],
+        "update_date": "2011-08-12",
+        "authors_parsed": [
+            [
+                "Kuopanportti",
+                "Pekko",
+                ""
+            ],
+            [
+                "Mottonen",
+                "Mikko",
+                ""
+            ],
+            [
+                "Bergholm",
+                "Ville",
+                ""
+            ],
+            [
+                "Saira",
+                "Olli-Pentti",
+                ""
+            ],
+            [
+                "Zhang",
+                "Jun",
+                ""
+            ],
+            [
+                "Whaley",
+                "K. Birgitta",
+                ""
+            ]
+        ]
+    },
+    {
+        "id": "0704.0806",
+        "submitter": "Daniel E. Vanden Berk",
+        "authors": "Donald P. Schneider, Patrick B. Hall, Gordon T. Richards, Michael A.\n  Strauss, Daniel E. Vanden Berk, Scott F. Anderson, W.N. Brandt, Xiaohui Fan,\n  Sebastian Jester, Jim Gray, James E. Gunn, Mark U. SubbaRao, Anirudda R.\n  Thakar, Chris Stoughton, Alexander S. Szalay, Brian Yanny, Donald G. York,\n  Neta A. Bahcall, J. Barentine, Michael R. Blanton, Howard Brewington, J.\n  Brinkmann, Robert J. Brunner, Francisco J. Castander, Istvan Csabai, Joshua\n  A. Frieman, Masataka Fukugita, Michael Harvanek, David W. Hogg, Zeljko\n  Ivezic, Stephen M. Kent, S. J. Kleinman, G. R. Knapp, Richard G. Kron, Jurek\n  Krzesinski, Daniel C. Long, Robert H. Lupton, Atsuko Nitta, Jeffrey R. Pier,\n  David H. Saxe, Yue Shen, Stephanie A. Snedden, David H. Weinberg, and Jian Wu",
+        "title": "The Sloan Digital Sky Survey Quasar Catalog IV. Fifth Data Release",
+        "comments": "37 pages, Accepted for publication in AJ",
+        "journal-ref": "Astron.J.134:102-117,2007",
+        "doi": "10.1086/518474",
+        "report-no": null,
+        "categories": "astro-ph",
+        "license": null,
+        "abstract": "  We present the fourth edition of the Sloan Digital Sky Survey (SDSS) Quasar\nCatalog. The catalog contains 77,429 objects; this is an increase of over\n30,000 entries since the previous edition. The catalog consists of the objects\nin the SDSS Fifth Data Release that have luminosities larger than M_i = -22.0\n(in a cosmology with H_0 = 70 km/s/Mpc, Omega_M = 0.3, and Omega_Lambda = 0.7)\nhave at least one emission line with FWHM larger than 1000 km/s, or have\ninteresting/complex absorption features, are fainter than i=15.0, and have\nhighly reliable redshifts. The area covered by the catalog is 5740 sq. deg. The\nquasar redshifts range from 0.08 to 5.41, with a median value of 1.48; the\ncatalog includes 891 quasars at redshifts greater than four, of which 36 are at\nredshifts greater than five. Approximately half of the catalog quasars have i <\n19; nearly all have i < 21. For each object the catalog presents positions\naccurate to better than 0.2 arcsec. rms per coordinate, five-band (ugriz)\nCCD-based photometry with typical accuracy of 0.03 mag, and information on the\nmorphology and selection method. The catalog also contains basic radio,\nnear-infrared, and X-ray emission properties of the quasars, when available,\nfrom other large-area surveys. The calibrated digital spectra cover the\nwavelength region 3800--9200A at a spectral resolution of ~2000. The spectra\ncan be retrieved from the public database using the information provided in the\ncatalog. The average SDSS colors of quasars as a function of redshift, derived\nfrom the catalog entries, are presented in tabular form. Approximately 96% of\nthe objects in the catalog were discovered by the SDSS.\n",
+        "versions": [
+            {
+                "version": "v1",
+                "created": "Thu, 5 Apr 2007 21:00:10 GMT"
+            }
+        ],
+        "update_date": "2008-11-26",
+        "authors_parsed": [
+            [
+                "Schneider",
+                "Donald P.",
+                ""
+            ],
+            [
+                "Hall",
+                "Patrick B.",
+                ""
+            ],
+            [
+                "Richards",
+                "Gordon T.",
+                ""
+            ],
+            [
+                "Strauss",
+                "Michael A.",
+                ""
+            ],
+            [
+                "Berk",
+                "Daniel E. Vanden",
+                ""
+            ],
+            [
+                "Anderson",
+                "Scott F.",
+                ""
+            ],
+            [
+                "Brandt",
+                "W. N.",
+                ""
+            ],
+            [
+                "Fan",
+                "Xiaohui",
+                ""
+            ],
+            [
+                "Jester",
+                "Sebastian",
+                ""
+            ],
+            [
+                "Gray",
+                "Jim",
+                ""
+            ],
+            [
+                "Gunn",
+                "James E.",
+                ""
+            ],
+            [
+                "SubbaRao",
+                "Mark U.",
+                ""
+            ],
+            [
+                "Thakar",
+                "Anirudda R.",
+                ""
+            ],
+            [
+                "Stoughton",
+                "Chris",
+                ""
+            ],
+            [
+                "Szalay",
+                "Alexander S.",
+                ""
+            ],
+            [
+                "Yanny",
+                "Brian",
+                ""
+            ],
+            [
+                "York",
+                "Donald G.",
+                ""
+            ],
+            [
+                "Bahcall",
+                "Neta A.",
+                ""
+            ],
+            [
+                "Barentine",
+                "J.",
+                ""
+            ],
+            [
+                "Blanton",
+                "Michael R.",
+                ""
+            ],
+            [
+                "Brewington",
+                "Howard",
+                ""
+            ],
+            [
+                "Brinkmann",
+                "J.",
+                ""
+            ],
+            [
+                "Brunner",
+                "Robert J.",
+                ""
+            ],
+            [
+                "Castander",
+                "Francisco J.",
+                ""
+            ],
+            [
+                "Csabai",
+                "Istvan",
+                ""
+            ],
+            [
+                "Frieman",
+                "Joshua A.",
+                ""
+            ],
+            [
+                "Fukugita",
+                "Masataka",
+                ""
+            ],
+            [
+                "Harvanek",
+                "Michael",
+                ""
+            ],
+            [
+                "Hogg",
+                "David W.",
+                ""
+            ],
+            [
+                "Ivezic",
+                "Zeljko",
+                ""
+            ],
+            [
+                "Kent",
+                "Stephen M.",
+                ""
+            ],
+            [
+                "Kleinman",
+                "S. J.",
+                ""
+            ],
+            [
+                "Knapp",
+                "G. R.",
+                ""
+            ],
+            [
+                "Kron",
+                "Richard G.",
+                ""
+            ],
+            [
+                "Krzesinski",
+                "Jurek",
+                ""
+            ],
+            [
+                "Long",
+                "Daniel C.",
+                ""
+            ],
+            [
+                "Lupton",
+                "Robert H.",
+                ""
+            ],
+            [
+                "Nitta",
+                "Atsuko",
+                ""
+            ],
+            [
+                "Pier",
+                "Jeffrey R.",
+                ""
+            ],
+            [
+                "Saxe",
+                "David H.",
+                ""
+            ],
+            [
+                "Shen",
+                "Yue",
+                ""
+            ],
+            [
+                "Snedden",
+                "Stephanie A.",
+                ""
+            ],
+            [
+                "Weinberg",
+                "David H.",
+                ""
+            ],
+            [
+                "Wu",
+                "Jian",
+                ""
+            ]
+        ]
+    }
+]
