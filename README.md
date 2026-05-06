@@ -1,67 +1,103 @@
 # NLP-projects
 
-Pet-проекты по обработке естественного языка, выполненные в рамках курса
-**«Обработка естественного языка»**, 2025–2026.
-
-> **Статус:** репозиторий формируется. Проекты переносятся из закрытого учебного репозитория и добавлением подробных README по каждому проекту.
+Практические проекты по обработке естественного языка, выполненные в рамках
+курса «Обработка естественного языка», 2025–2026.
 
 ---
 
 ## Содержание
 
-| # | Проект | Тематика | Статус |
-|---|--------|----------|--------|
-| 1 | [BERT и Multi-Head Attention](01-nerel-multitask-ner-cls/) | Реализация и применение BERT, механизм многоглавного внимания | переносится |
-| 2 | [Seq2Seq и машинный перевод](02-train-llm-pretrain-sft/) | Encoder-Decoder архитектуры, машинный перевод | переносится |
-| 3 | [NER — извлечение именованных сущностей](03-arxiv-retrieval-system/) | Распознавание именованных сущностей, BIO-разметка, fine-tuning BERT | переносится |
-| 4 | [LLM и итоговый проект](./04-llm-final/) | Большие языковые модели, prompt engineering, fine-tuning | переносится |
+| # | Проект | Задача | Ключевой результат |
+|---|---|---|---|
+| 01 | [Multi-task NER + Event Classification](./01-nerel-multitask-ner-cls/) | Multi-task: token-level NER + document-level multilabel classification | Token F1 = 0.59 · CLS F1 = 0.82 |
+| 02 | [Training My Own LLM (Pretrain + SFT)](./02-train-llm-pretrain-sft/) | Pretrain decoder-only трансформера с нуля + SFT Qwen2.5-0.5B | Связная генерация в стиле классики, переход к инструктивному формату |
+| 03 | [arXiv Retrieval System](./03-arxiv-retrieval-system/) | Двухэтапный поиск научных статей: bi-encoder + cross-encoder reranker | MRR@5 = 0.973 · Hits@5 = 0.994 |
+| 04 | [Fashion Product Search](./04-fashion-product-search/) | Fine-tuning CLIP на каталоге одежды + multi-modal поиск | Val CLIP score = 30.57 · поиск за миллисекунды на 39K товаров |
 
 ---
 
-## 1. BERT и Multi-Head Attention
+## 01 — Multi-task NER + Event Classification
 
-**Задача:** разобраться с архитектурой Transformer и BERT — реализовать механизм
-multi-head self-attention с нуля, изучить позиционные эмбеддинги и токенизацию,
-применить предобученный BERT к задачам классификации текста.
+Multi-task модель для одновременного решения двух задач на русскоязычных
+новостных текстах: token-level NER (BIO-разметка) и document-level
+multilabel-классификация событий и отношений. Один общий энкодер (ruBERT) с
+двумя головами и **uncertainty weighting** (Kendall et al.) для автоматической
+балансировки двух loss-функций без ручного подбора весов.
 
-**Стек:** PyTorch, transformers, HuggingFace Datasets, scikit-learn.
+Дополнительно — **dynamic post-training quantization** с честным сравнением
+качества и скорости: показано, что INT8 пригоден для CLS-головы (потеря 4%),
+но ломает NER (потеря 54%) — token-level задачи требуют Static PTQ или QAT.
 
----
+**Датасет:** [NEREL](https://huggingface.co/datasets/iluvvatar/NEREL)
 
-## 2. Seq2Seq и машинный перевод
+**Результаты:** Token F1 (macro) = 0.593 · CLS micro-F1 = 0.817 · 1.8× speed-up при квантизации
 
-**Задача:** построить модель машинного перевода на базе encoder-decoder
-архитектуры. Реализованы вариант на RNN/LSTM с attention и вариант на
-Transformer, сделано сравнение качества по BLEU.
-
-**Стек:** PyTorch, sacreBLEU, sentencepiece, HuggingFace Datasets.
-
----
-
-## 3. NER — извлечение именованных сущностей
-
-**Задача:** распознавание именованных сущностей (персоны, организации, локации,
-даты) на тексте с помощью fine-tuning предобученного BERT. Работа с
-BIO-разметкой, метриками F1 на уровне сущностей, обработкой подтокенов.
-
-**Стек:** PyTorch, transformers (BertForTokenClassification), seqeval,
-HuggingFace Datasets.
+→ [Подробное описание](./01-nerel-multitask-ner-cls/)
 
 ---
 
-## 4. LLM и итоговый проект
+## 02 — Training My Own LLM: Pretrain + SFT
 
-**Задача:** работа с большими языковыми моделями — prompt engineering,
-few-shot learning, базовый fine-tuning через PEFT/LoRA, оценка качества
-генерации.
+End-to-end pipeline обучения языковой модели в двух стадиях:
 
-**Стек:** transformers, peft, accelerate, OpenAI API, Anthropic Claude API.
+1. **Pretrain** — собственный decoder-only трансформер ~150M параметров
+   (LlamaConfig, GQA) с кастомным BPE-токенизатором (~3K vocab), обученный
+   с нуля на корпусе [RussianNovels](https://github.com/JoannaBy/RussianNovels)
+   (Толстой, Достоевский, Гоголь и др.). Модель учится **структуре языка**.
+2. **SFT** — дообучение Qwen2.5-0.5B на инструктивном датасете
+   [alpaca-cleaned-ru](https://huggingface.co/datasets/d0rj/alpaca-cleaned-ru)
+   в диалоговом формате `system / user / assistant`.
+
+Проект демонстрирует обе типичные стадии обучения LLM — pretrain и post-train —
+на упрощённом, но методически корректном масштабе.
+
+**Датасеты:** RussianNovels (pretrain) · alpaca-cleaned-ru (SFT)
+
+**Результаты:** связная генерация в стиле русской классики после pretrain;
+переход от base-модели к инструктивному формату после SFT
+
+→ [Подробное описание](./02-train-llm-pretrain-sft/)
 
 ---
 
-## Автор
+## 03 — arXiv Retrieval System
 
-**Николай Пахомов** — ML / NLP / LLM Engineer.
-- Telegram: [@kikoooiemama](https://t.me/kikoooiemama)
-- Email: nikolay.pakhomov.ds@gmail.com
-- GitHub: [kikoooiemama](https://github.com/kikoooiemama)
+Production-grade поиск по научным статьям arXiv: пользовательский запрос на
+естественном языке → top-5 наиболее релевантных статей из базы 98K документов.
+
+Классическая **two-stage retrieval**: bi-encoder
+([Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B)) +
+FAISS для быстрого отбора 100 кандидатов → cross-encoder reranker
+([Qwen3-Reranker-0.6B](https://huggingface.co/Qwen/Qwen3-Reranker-0.6B)) для
+точного переранжирования через generative yes/no классификацию.
+
+Полное профилирование показало: reranker занимает **98.9%** времени —
+это и есть главный target для оптимизации (предложены 6 конкретных стратегий
+ускорения).
+
+**Датасет:** arXiv metadata (98K статей, 1000 тестовых запросов)
+
+**Результаты:** MRR@5 = 0.973 (целевая > 0.91) · Hits@1 = 0.956 · Hits@5 = 0.994
+
+→ [Подробное описание](./03-arxiv-retrieval-system/)
+
+---
+
+## 04 — Fashion Product Search
+
+Multimodal-поиск по каталогу одежды и аксессуаров: пользователь вводит запрос
+на английском («red skirt», «black leather boots», «mickey mouse») —
+система возвращает релевантные изображения товаров.
+
+Fine-tuning [`openai/clip-vit-base-patch32`](https://huggingface.co/openai/clip-vit-base-patch32)
+на ~39K парах (image, description) с симметричным contrastive loss
+(InfoNCE). Поиск работает по **предвычисленным эмбеддингам** через одно
+матричное умножение — миллисекунды на каталог из 39K товаров.
+
+**Датасет:** [Fashion Product Images](https://www.kaggle.com/datasets/nirmalsankalana/fashion-product-text-images-dataset) (Kaggle, ~44K)
+
+**Результаты:** val CLIP score = 30.57 (целевая > 30) · корректная выдача на
+тестовых запросах разных типов: цвет+категория, материал, абстрактные
+(«mickey mouse» → футболки с принтами Disney)
+
+→ [Подробное описание](./04-fashion-product-search/)
